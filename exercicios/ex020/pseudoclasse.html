@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+        #  =  id
+        .  =  class
+        :  =  pseudo-classe
+        :: =  pseudo-element
+        >  =  children
+        */
+        div {
+            background-image: linear-gradient(to right, rgb(125, 166, 234), rgba(125, 167, 234, 0.536), rgba(125, 167, 234, 0));
+            padding: 10px;
+            height: 100px;
+            width: auto;
+            text-align: center;
+            outline: auto black;
+        }
+        div:hover {
+            background-color:darkkhaki;
+        }
+        #b > p{
+            display: none;
+        }
+        #b:hover{
+            background-color: rgba(224, 3, 3, 0.481);
+        
+        }
+        #b:hover > p{
+            display: block;
+        }
+        #b:active {
+            background-color: aquamarine;
+            color: black;
+        }
+        </style>
+</head>
+<body>
+    <div id="a">01</div>
+    <div id="b">02
+        <p>aiin, zé da manga</p>
+    </div>
+    <div id="c">03</div>
+</body>
+</html>

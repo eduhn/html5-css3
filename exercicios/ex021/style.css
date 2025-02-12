@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* Paleta em hexadecimal
+39393A 297373 FF8552 85FFC7 E6E6E6 ff865252*/
+body{
+    background-color: #39393A;
+    color: #ffffff;
+    font: 16px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+nav{
+    border: 1px solid white;
+    text-align: center;
+    margin: 0px 20px;
+}
+nav>a{
+    margin: auto;
+}
+a>ul{
+    display: inline;
+}
+
+
+
+h1, h2{
+    background-image: linear-gradient(to right, #fb845199, #fb845159,#180d0800);
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 0px 0px 10px; /*recúo*/
+}
+
+h2 {
+    margin-right: 10%;
+    background-image: linear-gradient(to right, #bc643e88, #a5563528,#4b2a1b00);
+}
+
+
+
+p{
+    display: inline;
+}
+
+
+a {
+   color: #FF8552; 
+}
+
+
+
+a:hover{
+    font-size: large;
+    font-weight: bold;
+    background-color: #fb845123;
+    /*border: 1px solid white;*/
+}
+
+
+
+article{
+    padding: 10px;
+    text-align: justify;
+    height: 300px;
+    width: 200px;
+    border: 2px dashed aquamarine;
+    background-color: rgba(169, 169, 169, 0.174);
+}
+.fr{
+    background-image: linear-gradient(to right, #ffffff99, #ffffff59,#180d0800);
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 0px 0px 10px;
+}
+
+
+footer{
+    margin: 50px 0px;
+    text-align: right;
+}

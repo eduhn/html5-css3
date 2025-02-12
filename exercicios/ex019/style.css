@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* #=id (identificador individual em css e em html)
+   .=class (identificador de classe em css e em html)
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: beige;
+    color: dark;
+}
+h1 {
+    color: darkred;
+    text-align: center;
+}
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+#one {
+    background-color: whitesmoke;
+    padding: auto;
+    margin: 3em;
+}
+#two {
+    background-image: linear-gradient( to right, #c5d1e07f, #c5d1e000);
+}
+#three {
+    background-image: linear-gradient( to right, #c5d1e07f, #c5d1e000);
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="midias/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="midias/foto-m.png" type="image/png">
+        <img src="midias/foto-g.png" alt="Imagem">
+    </picture>
+    <h1>Áudio</h1>
+    <p>Tenho aqui uma musiquinha pra nós..</p>
+    <audio src="midias/Mood Ring - National Sweetheart.mp3" preload="none" controls></audio>
+    <!--
+    audio: para inserir um arquivo de áudio
+    src: caminho do arquivo de áudio
+    preload: define se o arquivo deve ser carregado automaticamente
+    controls: exibe os controles de reprodução
+    loop: define que o áudio deve ser repetido
+    -->
+</body>
+</html>
