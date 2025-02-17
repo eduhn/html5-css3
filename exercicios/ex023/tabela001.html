@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: rgb(69, 36, 11);
+            color: white;
+        }
+        h1{
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        table{
+            border-collapse: collapse;
+            border: white 1px solid;
+            max-width: 700px;
+            margin: auto;
+        }
+        td{
+            border: white 1px solid;
+            text-align: center;
+            padding: 5px;
+            background-color: rgba(175, 173, 173, 0.201);
+            width: 100px;
+        }
+        td.df{
+            background-color: rgba(255, 228, 196, 0.523);
+        }
+        td#fc{
+            vertical-align: bottom;
+            text-align: right;
+        }
+        td::after{
+            content: ".";
+        }
+        td:hover{
+            background-color: whitesmoke;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aula de Tabelas</h1>
+    <table>
+        <tr>
+            <td class="df">a1</td>
+            <td>b1</td>
+            <td class="df">c1</td>
+        </tr>
+        <tr>
+            <td>a2</td>
+            <td class="df">b2</td>
+            <td>c2</td>
+        </tr>
+        <tr>
+            <td class="df">a3</td>
+            <td>b3</td>
+            <td class="df">c3</td>
+        </tr>
+        <tr>
+            <td>a4</td>
+            <td class="df">b4</td>
+            <td>c4</td>
+        </tr>
+        <tr>
+            <td class="df">a5</td>
+            <td>b5</td>
+            <td class="df">c5</td>
+        </tr>
+        <tr>
+            <td id="fc">a6</td>
+            <td class="df" id="fc">b6</td>
+            <td id="fc">c6</td>
+        </tr>
+    </table>
+</body>
+</html>
